@@ -1,60 +1,142 @@
-body {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#regresar {
-    width: 100%;
-    margin-bottom: 20px;
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3);
 }
+
+/* Contenedor principal centrado */
 #contenedor {
     width: 100%;
-    background-color: rgb(226, 220, 210);
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 10px;
 }
-#titulo{
-    width: 100%;
+
+/* Título centrado y estilizado */
+#titulo {
     text-align: center;
+    margin-bottom: 30px;
 }
+#titulo h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Botones de menú principal */
 .bton-principal {
-    width: 800px;
-    height: 60px;
-    border-collapse: collapse;
-    margin-bottom: 10px;
-    margin-left: 20%;
-    border-radius: 0%;
-    font-family: 'Courier New', Courier, monospace;
-    
+    width: 100%;
+    max-width: 500px;
+    height: 55px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #d8b08c;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.bton-secundario {
-    width: 95%;
-    height: 20px;
-    border-collapse: collapse;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    border-radius: 0%;
-    font-family: 'Courier New', Courier, monospace;
+.bton-principal:hover {
+    background-color: #b98e6f;
 }
+
+/* Texto y entradas */
 .texto-s {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
+    align-self: flex-start;
+    margin: 15px 0 5px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.bton-secundario {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Botón aceptar */
+#bton-aceptar {
+    width: 180px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#bton-aceptar:hover {
+    background-color: #43a047;
+}
+
+/* Botón para agregar ingrediente */
+#agregar-i {
+    width: 120px;
+    height: 35px;
+    margin-left: 10px;
+    background-color: #888;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+#agregar-i:hover {
+    background-color: #666;
+}
+
+/* Botón volver */
+#regresar {
+    position: absolute;
+    top: 20px;
     left: 20px;
-
+}
+#volver {
+    background-color: #888;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#volver:hover {
+    background-color: #666;
 }
 
-#bton-aceptar{
-    margin-left: 20px;
-    margin-bottom: 10px;
-    border-collapse: collapse;
-}
-
-#agregar-i{
-    width: 100px;
-    height: 25px;
-}
-
-.lista-ing{
-    border-color: black;
+/* Lista de ingredientes */
+.lista-ing {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    color: #222;
 }
