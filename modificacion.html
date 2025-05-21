@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="Reposteria" content="ejemplo"/>
+        <title> Reposteria </title>
+        <link rel="stylesheet" href="estilos.css">
+        <script src="funciones.js"></script>
+    </head>
+    <body>
+        <div id="regresar">
+        <input type="button" id="volver" value="Volver" onclick="volver();">
+        </div>
+        <div id="contenedor">
+            
+            <label for="receta" class="texto-s"> Agregar receta</label>
+            <input type="text" class="bton-secundario" id="receta">
+
+            <label for="ingrediente" class="texto-s"> Agregar ingrediente</label>
+            <input type="text" class="bton-secundario" id="ingrediente">
+            <input type="submit" id="agregar-i" class="bton-secundario" value="Agregar" onclick="agregarIngrdt();">
+
+            <input type="submit" value="Mostrar ingredientes" id="bton-aceptar" class="bton-secundario" onclick="mostrarIngrdt();">
+            <input type="submit" value="Aceptar" id="bton-aceptar" onclick="calcular();">
+        </div>
+    </body>
+</html>

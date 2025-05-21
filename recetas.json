@@ -1,0 +1,25 @@
+{
+    "Pastel de Chocolate": {
+        "Harina": 200,
+        "Az\u00c3\u00bacar": 150,
+        "Huevos": 3,
+        "Leche": 200,
+        "Mantequilla": 100,
+        "Chocolate": 150
+    },
+    "Galletas de Mantequilla": {
+        "Harina": 250,
+        "Az\u00c3\u00bacar": 100,
+        "Mantequilla": 150,
+        "Huevos": 1
+    },
+    "Panqueques": {
+        "Harina": 100,
+        "Leche": 200,
+        "Huevos": 2,
+        "Az\u00c3\u00bacar": 50
+    },
+    "PASTEL DE CHOCOLATE": {
+        "Harina": 10.0
+    }
+}

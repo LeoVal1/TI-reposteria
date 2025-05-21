@@ -1,0 +1,30 @@
+{
+    "Harina": {
+        "costo": 1.2,
+        "stock": 5000
+    },
+    "Az\u00c3\u00bacar": {
+        "costo": 0.8,
+        "stock": 3000
+    },
+    "Huevos": {
+        "costo": 0.5,
+        "stock": 200
+    },
+    "Leche": {
+        "costo": 1.0,
+        "stock": 1000
+    },
+    "Mantequilla": {
+        "costo": 2.5,
+        "stock": 800
+    },
+    "Chocolate": {
+        "costo": 3.0,
+        "stock": 400
+    },
+    "Levadura": {
+        "costo": 1.5,
+        "stock": 2.0
+    }
+}
