@@ -6,11 +6,17 @@ function volver(){
 }
 
 //------------------------------------------
+var ingrediente = {}
+
 function calcular(){
 
 }
 function agregarIngrdt(){
-    
+    ing = document.getElementById("ingrediente").value;
+    costo = parseInt(getElementById("costo").value);
+    stock = parseInt(document.getElementById("stock").value);
+    ingrediente[ing]= {"costo": costo, "stock": stock}
+    console.log(ingrediente);   
 }
 function mostrarIngrdt(){
     var contenedor = document.getElementById("contenedor");
